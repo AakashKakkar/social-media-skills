@@ -382,7 +382,7 @@ Before delivering the final caption, verify:
 - Does not write text-first standalone posts for LinkedIn, Twitter/X, Threads, or Bluesky — see **post-writer-sms**
 - Does not write multi-post threads — see **thread-writer-sms**
 - Does not write slide-by-slide carousel scripts — see **carousel-writer-sms**
-- Does not produce visual design, image edits, video edits, or thumbnails — output is text copy only
+- Does not produce visual design, image edits, video edits, or thumbnails — output is text copy only; use **reel-video-creator-sms** for short-form video production
 - Does not analyze caption performance — see **performance-analyzer-sms** for analytics
 - Does not define what to post or when — see **content-strategy-sms** and **content-calendar-sms**
 
@@ -394,3 +394,4 @@ Before delivering the final caption, verify:
 - **carousel-writer-sms** — for slide-by-slide visual content where each slide carries copy
 - **content-repurposer-sms** — adapt a caption across visual platforms with the right rules per channel
 - **platform-strategy-sms** — decide which visual platform to prioritize before producing the asset
+- **reel-video-creator-sms** — scripts, storyboards, asset prompts, and tool-assisted short-form video production

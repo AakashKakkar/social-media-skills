@@ -72,3 +72,11 @@ When no analytics tool is available, direct users to platform-native analytics:
 | **Bluesky**   | Limited native analytics; use third-party tools like Clearsky or Bluesky Stats |
 
 Key metrics to collect manually: impressions/views, likes, replies, reposts/shares, profile visits, follower count change.
+
+## Video Production (Capability-Dependent)
+
+The **reel-video-creator-sms** skill uses generation, speech, and editing tools only when those capabilities are actually available in the agent environment. This repository does not bundle a video renderer, provider credentials, or a video-generation MCP integration.
+
+Image generation can supply still assets; speech generation can supply narration; video generation can supply clips; an editor or media assembly tool is needed to combine these with subtitles and export a finished video. Inspect each available tool's documentation before use. Without a suitable pipeline, the skill delivers a production package for manual filming or editing.
+
+BlackTwist's posting and scheduling tools are not video-generation tools. Verify connected account support and media-upload capabilities before attempting to publish a finished Reel, TikTok, or Short.

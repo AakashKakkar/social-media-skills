@@ -26,6 +26,7 @@ AI agent skills for social media content strategy, creation, and analysis across
 | [thread-writer-sms](skills/thread-writer-sms/)           | Writes multi-post threads with a clear narrative arc and strong opening hook     |
 | [carousel-writer-sms](skills/carousel-writer-sms/)       | Writes slide-by-slide carousel scripts for LinkedIn and similar visual formats   |
 | [caption-writer-sms](skills/caption-writer-sms/)         | Writes captions for visual-first platforms — Facebook, Instagram, TikTok, Pinterest |
+| [reel-video-creator-sms](skills/reel-video-creator-sms/) | Creates short-form scripts, storyboards, voiceover and visual prompts; produces videos when suitable tools are available |
 | [content-repurposer-sms](skills/content-repurposer-sms/) | Transforms existing content into new formats and adapts it across platforms      |
 | [hook-writer-sms](skills/hook-writer-sms/)               | Crafts high-performing opening lines to maximize engagement and stop-the-scroll  |
 
@@ -116,7 +117,7 @@ npx skillkit install blacktwist/social-media-skills --list
 - **Threads** — posts, threads (Meta)
 - **Bluesky** — posts, threads, starter packs
 
-**Visual-first** (captions only — see `caption-writer-sms`)
+**Visual-first** (captions via `caption-writer-sms`; short-form video production via `reel-video-creator-sms`)
 
 - **Facebook** — feed posts, photo and video captions
 - **Instagram** — feed, Reels, carousels, stories
